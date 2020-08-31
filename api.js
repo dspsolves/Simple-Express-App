@@ -29,7 +29,7 @@ app.post("/bodyJSON", (req, res) => {
     res.json(req.body);
 });
 
-app.get("/routeParams/:ping", (req, res) => {
+app.get("/pathVars/:ping", (req, res) => {
     res.send(req.params.ping);
 });
 

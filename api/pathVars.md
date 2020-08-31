@@ -1,16 +1,16 @@
-# Route Parameters
+# Path Variables
 
-Returns the route parameter in the URL.
+Returns the path variables in the URL.
 
 - **URL**
 
-`/routeParams/:ping`
+`/pathVars/:ping`
 
 - **Method**
 
 `GET`
 
-- **URL Param**
+- **Path Variable**
 
 `ping = whatever`
 
@@ -22,5 +22,5 @@ Returns the route parameter in the URL.
 - **Sample Call**
 ```
 curl --location
---request GET 'URL/routeParams/pong'
+--request GET 'URL/pathVars/pong'
 ```
