@@ -1,7 +1,7 @@
 {
     "name": "simple-express-app",
     "version": "1.0.0",
-    "description": "a very simple express app for demonstration purpose",
+    "description": "A very simple Express app for demonstration purposes",
     "main": "api.js",
     "scripts": {
         "start": "nodemon ."
