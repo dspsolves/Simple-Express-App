@@ -21,15 +21,15 @@ app.use(express.json());
 
 //Routes
 
-app.get("/", (req, res) => {
+app.get("/queryParams", (req, res) => {
     res.send(req.query);
 });
 
-app.post("/", (req, res) => {
+app.post("/bodyJSON", (req, res) => {
     res.json(req.body);
 });
 
-app.get("/:ping", (req, res) => {
+app.get("/routeParams/:ping", (req, res) => {
     res.send(req.params.ping);
 });
 
